@@ -80,12 +80,12 @@ public class MinimumEscapeHandler implements CharacterEscapeHandler {
                     case '\"':
                         out.write("&quot;");
                         break;
-					case '\r':
-						out.write("&#13;");
-						break;
-					case '\n':
-						out.write("&#10;");
-						break;
+                    case '\r':
+                        out.write("&#13;");
+                        break;
+                    case '\n':
+                        out.write("&#10;");
+                        break;
                 }
             }
         }
